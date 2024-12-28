@@ -1,0 +1,47 @@
+body{
+    overflow: auto;
+}
+.navbar {
+    background-color: #9fb7c0; 
+    border-bottom: 2px solid #495057; 
+    
+}
+
+.navbar-brand {
+    color: #9fb7c0; 
+    font-weight: bold; 
+}
+
+.nav-link {
+    color: #9fb7c0; 
+}
+
+.nav-link:hover {
+    color: #ffc107; 
+}
+
+.nav-button {
+    background-color: transparent; 
+    border: none; 
+    color: #9fb7c0 !important; 
+    font-size: 1rem; 
+    margin: 0px 20px; 
+    cursor: pointer; 
+    transition: color 0.3s ease; 
+    
+}
+
+.nav-button:hover {
+    color: #ffc107 !important; 
+}
+
+.spacial-nav-item .nav-link {
+    color: #9fb7c0; 
+    border-radius: 5px; 
+    padding: 43px 0 0 0; 
+}
+
+h2 {
+    margin: 20px; 
+    color: #343a40; 
+}
