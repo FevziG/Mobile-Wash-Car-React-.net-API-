@@ -1,0 +1,1072 @@
+[
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwAdminsController",
+    "Method": "GetCwAdmins",
+    "RelativePath": "api/CwAdmins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MOB\u0130LECARWASHAPISON.Entities.CwAdmin, MOB\u0130LECARWASHAPISON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwAdminsController",
+    "Method": "PostCwAdmin",
+    "RelativePath": "api/CwAdmins",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cwAdmin",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwAdmin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwAdmin",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwAdminsController",
+    "Method": "GetCwAdmin",
+    "RelativePath": "api/CwAdmins/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwAdmin",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwAdminsController",
+    "Method": "PutCwAdmin",
+    "RelativePath": "api/CwAdmins/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "cwAdmin",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwAdmin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwAdminsController",
+    "Method": "DeleteCwAdmin",
+    "RelativePath": "api/CwAdmins/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwAppointmentsController",
+    "Method": "GetCwAppointments",
+    "RelativePath": "api/CwAppointments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MOB\u0130LECARWASHAPISON.Entities.CwAppointment, MOB\u0130LECARWASHAPISON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwAppointmentsController",
+    "Method": "PostCwAppointment",
+    "RelativePath": "api/CwAppointments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cwAppointment",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwAppointment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwAppointment",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwAppointmentsController",
+    "Method": "GetCwAppointment",
+    "RelativePath": "api/CwAppointments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwAppointment",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwAppointmentsController",
+    "Method": "PutCwAppointment",
+    "RelativePath": "api/CwAppointments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "cwAppointment",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwAppointment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwAppointmentsController",
+    "Method": "DeleteCwAppointment",
+    "RelativePath": "api/CwAppointments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwAppointmentsController",
+    "Method": "GetAppointmentsByUserOrWorker",
+    "RelativePath": "api/CwAppointments/byUserOrWorker",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "workerId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MOB\u0130LECARWASHAPISON.Entities.CwAppointment, MOB\u0130LECARWASHAPISON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwFeedbacksController",
+    "Method": "GetCwFeedbacks",
+    "RelativePath": "api/CwFeedbacks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MOB\u0130LECARWASHAPISON.Entities.CwFeedback, MOB\u0130LECARWASHAPISON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwFeedbacksController",
+    "Method": "PostCwFeedback",
+    "RelativePath": "api/CwFeedbacks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cwFeedback",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwFeedback",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwFeedback",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwFeedbacksController",
+    "Method": "GetCwFeedback",
+    "RelativePath": "api/CwFeedbacks/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwFeedback",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwFeedbacksController",
+    "Method": "PutCwFeedback",
+    "RelativePath": "api/CwFeedbacks/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "cwFeedback",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwFeedback",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwFeedbacksController",
+    "Method": "DeleteCwFeedback",
+    "RelativePath": "api/CwFeedbacks/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwPaymentsController",
+    "Method": "GetCwPayments",
+    "RelativePath": "api/CwPayments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MOB\u0130LECARWASHAPISON.Entities.CwPayment, MOB\u0130LECARWASHAPISON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwPaymentsController",
+    "Method": "PostCwPayment",
+    "RelativePath": "api/CwPayments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cwPayment",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwPayment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwPayment",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwPaymentsController",
+    "Method": "GetCwPayment",
+    "RelativePath": "api/CwPayments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwPayment",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwPaymentsController",
+    "Method": "PutCwPayment",
+    "RelativePath": "api/CwPayments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "cwPayment",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwPayment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwPaymentsController",
+    "Method": "DeleteCwPayment",
+    "RelativePath": "api/CwPayments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwServicesController",
+    "Method": "GetCwServices",
+    "RelativePath": "api/CwServices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MOB\u0130LECARWASHAPISON.Entities.CwService, MOB\u0130LECARWASHAPISON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwServicesController",
+    "Method": "PostCwService",
+    "RelativePath": "api/CwServices",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cwService",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwService",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwServicesController",
+    "Method": "GetCwService",
+    "RelativePath": "api/CwServices/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwServicesController",
+    "Method": "PutCwService",
+    "RelativePath": "api/CwServices/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "cwService",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwService",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwServicesController",
+    "Method": "DeleteCwService",
+    "RelativePath": "api/CwServices/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOBILECARWASHAPISON.Controllers.CwUsersController",
+    "Method": "GetCwUsers",
+    "RelativePath": "api/CwUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MOBILECARWASHAPISON.Entities.CwUser, MOB\u0130LECARWASHAPISON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOBILECARWASHAPISON.Controllers.CwUsersController",
+    "Method": "PostCwUser",
+    "RelativePath": "api/CwUsers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cwUser",
+        "Type": "MOBILECARWASHAPISON.Entities.CwUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOBILECARWASHAPISON.Entities.CwUser",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOBILECARWASHAPISON.Controllers.CwUsersController",
+    "Method": "GetCwUser",
+    "RelativePath": "api/CwUsers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOBILECARWASHAPISON.Entities.CwUser",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOBILECARWASHAPISON.Controllers.CwUsersController",
+    "Method": "PutCwUser",
+    "RelativePath": "api/CwUsers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "cwUser",
+        "Type": "MOBILECARWASHAPISON.Entities.CwUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOBILECARWASHAPISON.Controllers.CwUsersController",
+    "Method": "DeleteCwUser",
+    "RelativePath": "api/CwUsers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOBILECARWASHAPISON.Controllers.CwUsersController",
+    "Method": "UpdateUserLocation",
+    "RelativePath": "api/CwUsers/{id}/Location",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwWorkerBalancesController",
+    "Method": "GetCwWorkerBalances",
+    "RelativePath": "api/CwWorkerBalances",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MOB\u0130LECARWASHAPISON.Entities.CwWorkerBalance, MOB\u0130LECARWASHAPISON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwWorkerBalancesController",
+    "Method": "PostCwWorkerBalance",
+    "RelativePath": "api/CwWorkerBalances",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cwWorkerBalance",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwWorkerBalance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwWorkerBalance",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwWorkerBalancesController",
+    "Method": "GetCwWorkerBalance",
+    "RelativePath": "api/CwWorkerBalances/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwWorkerBalance",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwWorkerBalancesController",
+    "Method": "PutCwWorkerBalance",
+    "RelativePath": "api/CwWorkerBalances/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "cwWorkerBalance",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwWorkerBalance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwWorkerBalancesController",
+    "Method": "DeleteCwWorkerBalance",
+    "RelativePath": "api/CwWorkerBalances/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOBILECARWASHAPISON.Controllers.CwWorkersController",
+    "Method": "GetCwWorkers",
+    "RelativePath": "api/CwWorkers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MOB\u0130LECARWASHAPISON.Entities.CwWorker, MOB\u0130LECARWASHAPISON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOBILECARWASHAPISON.Controllers.CwWorkersController",
+    "Method": "PostCwWorker",
+    "RelativePath": "api/CwWorkers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cwWorker",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwWorker",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwWorker",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOBILECARWASHAPISON.Controllers.CwWorkersController",
+    "Method": "GetCwWorker",
+    "RelativePath": "api/CwWorkers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwWorker",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOBILECARWASHAPISON.Controllers.CwWorkersController",
+    "Method": "PutCwWorker",
+    "RelativePath": "api/CwWorkers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "cwWorker",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwWorker",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOBILECARWASHAPISON.Controllers.CwWorkersController",
+    "Method": "DeleteCwWorker",
+    "RelativePath": "api/CwWorkers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOBILECARWASHAPISON.Controllers.CwWorkersController",
+    "Method": "UpdateWorkerLocation",
+    "RelativePath": "api/CwWorkers/{id}/Location",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwWorkerServicesController",
+    "Method": "GetCwWorkerServices",
+    "RelativePath": "api/CwWorkerServices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MOB\u0130LECARWASHAPISON.Entities.CwWorkerService, MOB\u0130LECARWASHAPISON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwWorkerServicesController",
+    "Method": "PostCwWorkerService",
+    "RelativePath": "api/CwWorkerServices",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cwWorkerService",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwWorkerService",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwWorkerService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwWorkerServicesController",
+    "Method": "GetCwWorkerService",
+    "RelativePath": "api/CwWorkerServices/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwWorkerService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwWorkerServicesController",
+    "Method": "PutCwWorkerService",
+    "RelativePath": "api/CwWorkerServices/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "cwWorkerService",
+        "Type": "MOB\u0130LECARWASHAPISON.Entities.CwWorkerService",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Controllers.CwWorkerServicesController",
+    "Method": "DeleteCwWorkerService",
+    "RelativePath": "api/CwWorkerServices/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MOB\u0130LECARWASHAPISON.Services.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MOB\u0130LECARWASHAPISON.Services.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
