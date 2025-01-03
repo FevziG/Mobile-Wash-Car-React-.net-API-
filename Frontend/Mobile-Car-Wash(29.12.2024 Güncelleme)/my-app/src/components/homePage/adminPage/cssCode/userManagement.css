@@ -1,0 +1,60 @@
+.delete-button {
+    background-color: #f44336; /* Kırmızı arka plan */
+    color: white; /* Beyaz yazı rengi */
+    border: none; /* Kenar çerçevesi yok */
+    padding: 10px 15px; /* Yatay ve dikey padding */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    cursor: pointer; /* İmleç işareti değiştirilir */
+    transition: background-color 0.3s ease; /* Geçiş efekti */
+    font-size: 16px; /* Yazı boyutu */
+    margin-right: 3px;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f; /* Fare ile üzerine gelindiğinde daha koyu kırmızı */
+}
+
+.edit-button {
+    background-color: #4CAF50; /* Yeşil arka plan */
+    color: white; /* Beyaz yazı rengi */
+    border: none; /* Kenar çerçevesi yok */
+    padding: 10px 15px; /* Yatay ve dikey padding */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    cursor: pointer; /* İmleç işareti değiştirilir */
+    transition: background-color 0.3s ease; /* Geçiş efekti */
+    font-size: 16px; /* Yazı boyutu */
+}
+
+.edit-button:hover {
+    background-color: #388E3C; /* Fare ile üzerine gelindiğinde daha koyu yeşil */
+}
+
+.save-button {
+    background-color: #2196F3; /* Mavi arka plan */
+    color: white; /* Beyaz yazı rengi */
+    border: none; /* Kenar çerçevesi yok */
+    padding: 10px 15px; /* Yatay ve dikey padding */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    cursor: pointer; /* İmleç işareti değiştirilir */
+    transition: background-color 0.3s ease; /* Geçiş efekti */
+    font-size: 16px; /* Yazı boyutu */
+}
+
+.save-button:hover {
+    background-color: #1976D2; /* Fare ile üzerine gelindiğinde daha koyu mavi */
+}
+.input-group {
+    width: 400px; /* İstediğiniz genişliği belirleyin */
+    margin: 20px auto; /* Üst ve alt boşluk, sağ ve sol ortalamak için */
+    padding: 10px; /* İçerik ile kenar arasında boşluk */
+    border: 1px solid #ccc; /* Kenar çizgisi */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+
+.input-group input {
+    width: 100%; /* İçindeki input elemanının tam genişlikte olmasını sağlar */
+    border: none; /* Kenar çerçevesi yok */
+    outline: none; /* Odaklandığında kenar vurgusu yok */
+    padding: 10px; /* İçerik ile kenar arasında boşluk */
+}
