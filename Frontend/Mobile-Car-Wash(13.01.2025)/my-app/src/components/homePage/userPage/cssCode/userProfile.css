@@ -1,0 +1,127 @@
+ /* UserProfile bileşenine özgü stiller */
+.user-profile-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+   
+  .user-profile-container h1 {
+    text-align: center;
+    color: #fff;
+  }
+   
+  .user-profile-container h2 {
+    color: #fff;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+   
+  .user-profile-container .user-details {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+  }
+   
+  .user-profile-container .user-details h2 {
+    margin: 0;
+    color: #444;
+  }
+   
+  .user-profile-container .user-details p {
+    margin: 5px 0;
+    color: #666;
+  }
+   
+  .user-profile-container button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  .user-profile-container button:hover {
+    opacity: 0.9;
+  }
+   
+  .user-profile-container button:active {
+    transform: scale(0.98);
+  }
+   
+  .user-profile-container button:first-of-type {
+    background-color: #007bff;
+    color: #fff;
+  }
+   
+  .user-profile-container button:last-of-type {
+    background-color: #dc3545;
+    color: #fff;
+  }
+   
+  /* Tablo Stilleri */
+  .user-profile-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+   
+  .user-profile-container table thead {
+    background-color: #007bff;
+    color: #fff;
+  }
+   
+  .user-profile-container table th,
+  .user-profile-container table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+   
+  .user-profile-container table tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+   
+  .user-profile-container table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+   
+  /* Form Düzenleme Alanı */
+  .user-profile-container .user-details input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+   
+  .user-profile-container .user-details input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+   
+  /* Mobil Uyumluluk */
+  @media (max-width: 600px) {
+    .user-profile-container {
+      padding: 10px;
+    }
+   
+    .user-profile-container button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+   
+    .user-profile-container table {
+      font-size: 14px;
+    }
+  }
+  

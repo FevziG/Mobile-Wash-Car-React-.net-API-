@@ -1,0 +1,120 @@
+/* Genel Stil Ayarları */
+.worker-profile-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+   
+  .worker-profile-container h1 {
+    text-align: center;
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  
+  .worker-details {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+  }
+   
+  .worker-details h2 {
+    margin: 0;
+    color: #444;
+  }
+   
+  .worker-details p {
+    margin: 5px 0;
+    color: #666;
+  }
+   
+  .worker-details button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  .worker-details button:hover {
+    opacity: 0.9;
+  }
+   
+  .worker-details button:first-of-type {
+    background-color: #007bff;
+    color: #fff;
+  }
+   
+  .worker-details button:last-of-type {
+    background-color: #dc3545;
+    color: #fff;
+  }
+   
+  /* Tablo Genel Stil */
+table {
+  width: 100%; /* Tablonun genişliğini tam yapar */
+  border-collapse: collapse; /* Kenarlıkları birleştirir */
+  margin-top: 20px; /* Üst boşluk */
+  border-radius: 10px; /* Köşeleri yuvarlatır */
+  overflow: hidden; /* Kenarlık dışına taşmaları engeller */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+
+/* Tablo Başlıkları (thead) */
+table thead {
+  background-color: #007bff; /* Mavi başlık arka planı */
+  color: #fff; /* Başlık metni beyaz */
+  font-weight: bolder; /* Kalın yazı */
+  
+}
+
+/* Tablo Hücreleri */
+table th,
+table td {
+  padding: 12px 15px; /* İç boşluk */
+  text-align: left; /* Metni sola hizalar */
+  border: 1px solid #ddd; /* Hafif gri kenarlık */
+  font-size: 14px; /* Yazı boyutu */
+}
+
+/* Alternatif Satır Renkleri */
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Açık gri */
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* Beyaz */
+}
+
+/* Tablo Üzerine Gelindiğinde (Hover) */
+table tbody tr:hover {
+  background-color: #f1f1f1; /* Daha koyu bir gri */
+}
+
+/* Mobil Uyumluluk */
+@media (max-width: 600px) {
+  table {
+    font-size: 12px; /* Küçük ekranlar için yazı boyutunu küçült */
+  }
+
+}
+
+   
+  /* Mobil Uyumluluk */
+  @media (max-width: 600px) {
+    .worker-profile-container {
+      padding: 10px;
+    }
+   
+    table {
+      font-size: 14px;
+    }
+  }

@@ -1,0 +1,19 @@
+.container-dashboard{
+    display: fixed;
+    top: 50%;
+    left: 50%;
+    width: 520px;
+    height: auto;
+    margin: 20px auto;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+}
+.container-dashboard h3,p {
+    color: #fff;
+}
+.container-dashboard h1 {
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: underline;
+}

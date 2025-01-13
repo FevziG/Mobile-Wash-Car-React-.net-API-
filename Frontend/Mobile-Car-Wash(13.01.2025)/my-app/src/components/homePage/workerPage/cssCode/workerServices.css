@@ -1,0 +1,112 @@
+/* Genel Konteyner */
+.worker-services-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+   
+  /* Başlık */
+  .worker-services-container h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+   
+  /* Servis Listesi */
+  .list-group {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+   
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+   
+  .list-group-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+   
+  .list-group-item.active {
+    background-color: #007bff;
+    color: #ffffff;
+    border-color: #007bff;
+  }
+   
+  .list-group-item.active:hover {
+    transform: scale(1.02);
+  }
+   
+  /* Kaydet Butonu */
+  .btn btn-primary mt-3 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+   
+  .btn:hover {
+    background-color: #0056b3;
+  }
+   
+  .btn :disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+   
+  /* Durum Mesajı */
+  .alert {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+   
+  .alert-info {
+    background-color: #e9f7fe;
+    border-color: #bee5eb;
+    color: #31708f;
+  }
+   
+  /* Mobil Uyumluluk */
+  @media (max-width: 600px) {
+    .worker-services-container {
+      padding: 15px;
+    }
+   
+    .list-group-item {
+      font-size: 14px;
+      padding: 10px;
+    }
+   
+    .btn {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }

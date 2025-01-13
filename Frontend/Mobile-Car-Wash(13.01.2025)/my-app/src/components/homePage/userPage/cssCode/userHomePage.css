@@ -1,0 +1,170 @@
+body, html{
+  margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('https://clipart-library.com/images/6cr5jA7oi.jpg');
+}
+/* Genel Konteyner */
+.user-homepage-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background: rgba(255, 255, 255, 0.2);
+    /* backdrop-filter: blur(10px); */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+   
+  /* Başlıklar */
+  .user-homepage-container h3 {
+    font-weight: bolder;
+    color: #333;
+    margin-bottom: 20px;
+  }
+   
+  /* Select (Dropdown) Stilleri */
+  .user-homepage-container select {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #fff;
+  }
+   
+  .user-homepage-container select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+   
+  /* Çalışan Listesi */
+  .user-homepage-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+   
+  .user-homepage-container li {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+   
+  .user-homepage-container li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+   
+  .user-homepage-container li strong {
+    font-size: 16px;
+    color: #007bff;
+  }
+   
+  .user-homepage-container li button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+   
+  .user-homepage-container li button:hover {
+    background-color: #0056b3;
+  }
+   
+  /* Seçim kutusunu ortalamak için */
+.user-homepage-container select.form-select {
+  display: block;
+  margin: 0 auto 20px auto; /* Üst ve alt margin ayarlanır */
+  width: 50%; /* İsteğe bağlı genişlik */
+  text-align: center;
+}
+
+  /* Modal İçeriği */
+  .modal-content {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+   
+  .modal-header {
+    border-bottom: 1px solid #ddd;
+  }
+   
+  .modal-title {
+    font-size: 18px;
+    color: #333;
+  }
+   
+  .modal-body h6 {
+    margin: 15px 0 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+   
+  .modal-body select {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+   
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+   
+  .modal-footer button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+   
+  .modal-footer button:hover {
+    background-color: #0056b3;
+  }
+   
+  /* Uyarı Mesajı */
+  .alert {
+    text-align: center;
+    font-size: 14px;
+  }
+   
+  /* Mobil Uyumluluk */
+  @media (max-width: 600px) {
+    .user-homepage-container {
+      padding: 10px;
+    }
+   
+    .user-homepage-container li {
+      padding: 10px;
+    }
+   
+    .modal-body select {
+      font-size: 12px;
+    }
+   
+    .modal-footer button {
+      font-size: 12px;
+    }
+  }

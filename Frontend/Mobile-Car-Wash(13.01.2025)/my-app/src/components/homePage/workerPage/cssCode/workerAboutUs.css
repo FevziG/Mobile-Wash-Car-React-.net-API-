@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif; 
+  color: #333; 
+  font-size: 20px;
+
+}
+.container-workerAboutUs{
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  color: #fff;
+  border-radius: 15px;
+}
+.container-workerAboutUs h1 {
+  text-align: center; 
+  margin-top: 40px; 
+  font-weight: bolder;
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+.container-workerAboutUs p {
+  line-height: 1.6; 
+  margin: 15px 20px; 
+}
+
+
+.container-workerAboutUs ul {
+  list-style-type: none; 
+  text-align: center; 
+}
+
+.container-workerAboutUs li {
+  margin: 10px 0; 
+  font-size: 16px; 
+  color: #fff; 
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px; 
+  }
+  
+  p, li {
+    font-size: 14px; 
+  }
+}

@@ -1,0 +1,90 @@
+/* Genel Konteyner */
+.worker-homepage-container {
+    max-width: 700px; /* Yanlardan daraltıldı */
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+   
+  /* Başlıklar */
+  .worker-homepage-container h3 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+   
+  /* Randevu Kartları */
+  .appointment-card {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+   
+  .appointment-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+   
+  .appointment-card h5 {
+    font-size: 16px;
+    color: #007bff;
+  }
+   
+  /* Butonlar */
+  .button-group .btn {
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+   
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+    margin-bottom: 5px;
+  }
+   
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+   
+  .btn-success:hover {
+    background-color: #218838;
+  }
+   
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+   
+  /* Uyarı Mesajı */
+  .alert {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+   
+  /* Mobil Uyumluluk */
+  @media (max-width: 600px) {
+    .worker-homepage-container {
+      padding: 10px;
+    }
+   
+    .appointment-card {
+      padding: 10px;
+    }
+   
+    .button-group .btn {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+  }

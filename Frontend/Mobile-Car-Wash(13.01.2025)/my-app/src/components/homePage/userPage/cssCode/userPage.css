@@ -1,0 +1,50 @@
+body{
+    overflow: auto;
+}
+.navbar {
+    background-color: transparent !important; 
+    border-bottom: 1px solid #fff !important; 
+    backdrop-filter: blur(4px);
+    
+}
+
+.navbar-brand {
+    color: #fff; 
+    font-weight: bolder;
+    font-size: 1.6rem; 
+}
+
+.nav-link {
+    color: #9fb7c0; 
+}
+
+.nav-link:hover {
+    color: #ffc107; 
+}
+
+.nav-button {
+    background-color: transparent !important;
+    border: none; 
+    color: #ffffff !important; 
+    font-size: 1.5rem !important; 
+    margin: 0px 20px; 
+    cursor: pointer; 
+    transition: color 0.3s ease; 
+    
+}
+
+.nav-button:hover {
+    color: #ffc107 !important; 
+}
+
+.spacial-nav-item .nav-link {
+    color: #9fb7c0; 
+    border-radius: 5px; 
+    padding: 43px 0 0 0; 
+}
+
+h2 {
+    margin: 20px; 
+    color: #343a40; 
+}
+
